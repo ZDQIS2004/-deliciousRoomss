@@ -1,0 +1,106 @@
+
+.content {
+		/* padding: 20rpx; */
+		background-color: #f4f4f4;
+}
+.cont {
+		background-color: #fff;
+		padding: 20rpx;
+		margin-bottom: 20rpx;
+}
+.bd_cont {
+		padding: 20rpx;
+		margin-bottom: 20rpx;
+}
+.van-tab__pane {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-top: 10rpx;
+}
+.shop_item_box {
+		background-color: #fff;
+		width: 45%;
+		overflow: hidden;
+		margin-bottom: 20rpx;
+		border-radius: 10rpx;
+}
+.image_box {
+		width: 100%;
+		overflow: hidden;
+}
+.image_box image {
+		width: 100%;
+}
+.body_box {
+		padding: 10rpx 20rpx;
+}
+.shop_name {
+		font-size: 30rpx;
+		white-space: nowrap;
+		overflow: hidden;
+}
+.shop_payment {
+		font-size: 24rpx;
+		line-height: 50rpx;
+}
+.pay {
+		color: green;
+		margin-right: 10rpx;
+}
+.eve {
+		color: red;
+		margin-right: 10rpx;
+}
+.shop_money {
+		font-size: 20rpx;
+}
+.money {
+		font-size: 30rpx;
+}
+.spe {
+		color: #9f9f9f;
+		margin-right: 10rpx;
+}
+.top_tab {
+		padding-top: 20rpx;
+		display: flex;
+		justify-content: space-around;
+}
+.icon_box>view {
+		font-size: 24rpx;
+		margin-top: 10rpx;
+		color: #545454;
+}
+.icon_box {
+		text-align: center;
+}
+@font-face {
+		font-family: "iconfont";
+		/* Project id 4188333 */
+		src: url('//at.alicdn.com/t/c/font_4188333_rh8lsdvxc2.woff2?t=1690599182901') format('woff2'),
+			url('//at.alicdn.com/t/c/font_4188333_rh8lsdvxc2.woff?t=1690599182901') format('woff'),
+			url('//at.alicdn.com/t/c/font_4188333_rh8lsdvxc2.ttf?t=1690599182901') format('truetype');
+}
+.iconfont {
+		font-family: "iconfont" !important;
+		font-size: 16px;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+}
+.icon-shangpinshoucang:before {
+		content: "\e624";
+}
+.icon-fushi-nvzhuang:before {
+		content: "\e602";
+}
+.icon-lingquanzhongxin:before {
+		content: "\e619";
+}
+.icon-duanmaqingcang:before {
+		content: "\e61e";
+}
+.icon-shengqianyueka:before {
+		content: "\e611";
+}

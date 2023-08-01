@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/types/types",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+		// ,
+		// {
+		// 	"path": "pages/typesPro/typesPro",
+		// 	"style": {
+		// 		"navigationBarTitleText": "分类详情"
+		// 	}
+		// }
+	],
+	"subpackages": [{
+		"root": "subPages",
+		"pages": [{
+				"path": "proDetails/proDetails",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			},
+			{
+				"path": "typesPro/typesPro"
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/dist/button/index",
+			"van-sidebar": "/wxcomponents/vant/dist/sidebar/index",
+			"van-sidebar-item": "/wxcomponents/vant/dist/sidebar-item/index",
+			"van-icon": "/wxcomponents/vant/dist/icon/index",
+			"van-tab": "/wxcomponents/vant/dist/tab/index",
+			"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+		}
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#d81e06",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/tabbar_icon/home_fill.png",
+			"selectedIconPath": "static/tabbar_icon/home_fill_active.png"
+		}, {
+			"pagePath": "pages/types/types",
+			"text": "分类",
+			"iconPath": "static/tabbar_icon/type.png",
+			"selectedIconPath": "static/tabbar_icon/type_active.png"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"text": "购物车",
+			"iconPath": "static/tabbar_icon/cart.png",
+			"selectedIconPath": "static/tabbar_icon/cart_active.png"
+		}, {
+			"pagePath": "pages/person/person",
+			"text": "我的",
+			"iconPath": "static/tabbar_icon/user-fill.png",
+			"selectedIconPath": "static/tabbar_icon/user-fill_active.png"
+		}]
+	},
+	"uniIdRouter": {}
+}
