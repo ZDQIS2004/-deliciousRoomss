@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/types/types",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/details/shopdetails",
+			"style": {
+				"usingComponents": {
+					 // "van-goods-action": "@vant/weapp/goods-action/index",
+					  // "van-goods-action-icon": "@vant/weapp/goods-action-icon/index",
+					  // "van-goods-action-button": "@vant/weapp/goods-action-button/index"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/review/new_file"
+
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/dist/button/index"
+		}
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/tabbar_icon/home_fill.png",
+			"selectedIconPath": "static/tabbar_icon/home_fill_active.png"
+		}, {
+			"pagePath": "pages/types/types",
+			"text": "分类",
+			"iconPath": "static/tabbar_icon/type.png",
+			"selectedIconPath": "static/tabbar_icon/type_active.png"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"text": "购物车",
+			"iconPath": "static/tabbar_icon/cart.png",
+			"selectedIconPath": "static/tabbar_icon/cart_active.png"
+		}, {
+			"pagePath": "pages/person/person",
+			"text": "我的",
+			"iconPath": "static/tabbar_icon/user-fill.png",
+			"selectedIconPath": "static/tabbar_icon/user-fill_active.png"
+		}]
+	},
+	"uniIdRouter": {}
+}

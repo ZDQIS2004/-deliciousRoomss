@@ -1,0 +1,1 @@
+<view class="home"><button bindtap="{{a}}">按钮</button></view>

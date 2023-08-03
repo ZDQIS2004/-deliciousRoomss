@@ -1,0 +1,1 @@
+<view class="types"> 111111111111 <van-button wx:if="{{r0}}" u-t="m" u-i="8ca04fb6-0" bind:__l="__l" u-p="{{a}}">主要按钮</van-button><van-button wx:if="{{r0}}" u-t="m" u-i="8ca04fb6-1" bind:__l="__l" u-p="{{b}}">默认按钮</van-button></view>
